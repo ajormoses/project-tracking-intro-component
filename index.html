@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 8px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        font-size: 8px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <!-- mobile view starts here  -->
+          <div class="mobile-view">
+            <!-- mobile head starts here -->
+            <div class="mobile-head">
+              <div class="brand-logo">
+                <img src="./images/logo.svg" alt="brand-logo" />
+              </div>
+              <div class="icon-toggle">
+                <div class="icon-hamburger">
+                  <img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
+                </div>
+                <div class="icon-close">
+                  <img src="./images/icon-close.svg" alt="icon-close" />
+                </div>
+              </div>
+            </div>
+            <!-- mobile head ends here -->
+            <!-- mobile nav starts here -->
+            <nav class="mobile-nav-bar">
+              <ul>
+                <li>PRODUCT</li>
+                <li>FEATURES</li>
+                <li>PRICING</li>
+              </ul>
+              <hr />
+              <button>LOGIN</button>
+            </nav>
+          </div>
+          <!-- mobile view ends here -->
+          <!-- desktop view starts here -->
+          <div class="desktop-view">
+            <div class="desktop-head">
+              <div class="brand-logo">
+                <img src="./images/logo.svg" alt="brand-logo" />
+              </div>
+              <!-- desktop nav starts here -->
+              <nav class="desktop-nav-bar">
+                <ul>
+                  <li>PRODUCT</li>
+                  <li>FEATURES</li>
+                  <li>PRICING</li>
+                </ul>
+                <button>LOGIN</button>
+              </nav>
+            </div>
+          </div>
+          <!-- desktop view ends here  -->
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="box-design"></div>
+        <!-- devices display starts here -->
+        <div class="section-content">
+          <div class="gadgets">
+            <img
+              src="./images/illustration-devices.svg"
+              alt="illustration-devices"
+            />
+          </div>
+          <!-- devices display ends here -->
+          <!-- Main section design -->
+          <div class="container">
+            <!-- stn content start here -->
+            <div class="stn-content">
+              <div class="stn-brand">
+                <div class="stn-new"><p>NEW</p></div>
+                <div class="stn-name">
+                  <p>MONOGRAPH DASHBOARD</p>
+                </div>
+              </div>
+              <!-- stn text starts here -->
+              <div class="stn-text">
+                <span><p>POWERFUL INSIGHTS INTO YOUR TEAM</p></span>
+                <p class="project">
+                  Project planning and time tracking for agile teams
+                </p>
+              </div>
+              <!-- stn text ends here -->
+              <!-- stn-last start here -->
+              <div class="stn-last">
+                <button class="schedule">SCHEDULE A DEMO</button>
+                <button class="preview">TO SEE A PREVIEW</button>
+              </div>
+              <!-- stn-last ends here -->
+            </div>
+          </div>
+          <!-- stn content ends here -->
+        </div>
+        <!-- Main section design ends here -->
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/ajormoses">AJOR MOSES</a>.
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
